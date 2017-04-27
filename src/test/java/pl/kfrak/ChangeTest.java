@@ -14,8 +14,8 @@ public class ChangeTest {
     @Test
     public void getChangeNominals_shouldReturnCorrectMultipleFor1374(){
         //given
-        int amount = 11;
-        int[] expectedNominals = new int[]{10, 1};
+        int amount = 16;
+        int[] expectedNominals = new int[]{10, 5, 1};
 
         //when
 
