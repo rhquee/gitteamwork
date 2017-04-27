@@ -10,6 +10,9 @@ public class App
     {
         System.out.println( "Hello World!" );
 
+        Change change = new Change();
+        System.out.println(change.getChangeNominals(237));
+
     }
 }
 //
