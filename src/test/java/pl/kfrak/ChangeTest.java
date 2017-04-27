@@ -29,6 +29,14 @@ public class ChangeTest {
 //        assertTrue(changeNominals.contains(expectedNominals[]));
         checkReturnedNominals(expectedNominals, changeNominals);
     }
+    @Test
+    public void getChangeNominals_shouldReturnFor2(){
+        //given
+        //when
+        //then
+
+    }
+
     public void checkReturnedNominals(int[] expected, List<Integer> returned){
         assertEquals(expected.length, returned.size());
 
@@ -37,39 +45,32 @@ public class ChangeTest {
         }
     }
 
-    @Test
-    public void getChangeNominals_shouldReturnFor2(){
-        //when
-        //then
-        //given
-    }
-
     @Test //(expected = IllegalArgumentException.class)
     public void getChangeNominals_shouldReturnExceptionFor1(){
+        //given
         //when
         //then
-        //given
     }
 
     @Test //(expected = IllegalArgumentException.class)
     public void getChangeNominals_shouldReturnExceptionFor0(){
+//given
         //when
         //then
-        //given
     }
 
     @Test //(expected = IllegalArgumentException.class)
     public void getChangeNominals_shouldReturnExceptionForNegative(){
+//given
         //when
         //then
-        //given
     }
 
     @Test //(expected = IllegalArgumentException.class)
     public void getChangeNominals_shouldReturnExceptionForNotNumbers(){
+        //given
         //when
         //then
-        //given
     }
 
 }
